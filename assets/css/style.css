@@ -153,6 +153,18 @@ a {
   font-weight: 500;
 }
 
+.clients .brand a {
+  display: flex;
+  align-items: center;
+  padding: 0 42px;
+  height: 90px;
+  border-radius: 12px;
+  background: #FFF;
+}
+
+.clients .brand a:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
+}
 .clients .brand {
   display: flex;
   justify-content: space-between;
