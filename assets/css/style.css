@@ -661,16 +661,20 @@ a {
 .footer .social {
   margin-top: 40px;
   display: flex;
+  gap: 16px;
 }
 
 .footer .social-link {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 28.5px;
   height: 28.5px;
   border-radius: 3px;
+  background: #f9f9f9;
 }
+
+
 
 .footer .social-link:hover {
   background: linear-gradient(90deg, rgb(234, 227, 217) 0%, rgb(237, 227, 217) 16.667%, rgb(233, 220, 209) 33.333%, rgb(223, 207, 196) 50%, rgb(208, 191, 180) 66.667%, rgb(192, 174, 163) 83.333%, rgb(177, 160, 149) 100%);
